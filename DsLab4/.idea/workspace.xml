@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f7f872a-9087-4bbe-9e08-6c9ea5446d8e" name="Default Changelist" comment="" />
+    <list default="true" id="2f7f872a-9087-4bbe-9e08-6c9ea5446d8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/avl_tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/avl_tree.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,14 +44,54 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="794453597">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1482" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1482" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+            <state relative-caret-position="170">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,32 +99,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AVL_tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-700">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="322">
+              <caret line="278" column="37" lean-forward="true" selection-start-line="278" selection-start-column="37" selection-end-line="278" selection-end-column="37" />
               <folding>
-                <element signature="e#0#5501#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#749#750#0" expanded="true" />
-                <element signature="e#841#842#0" expanded="true" />
-                <element signature="e#884#885#0" expanded="true" />
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-                <element signature="e#1090#1091#0" expanded="true" />
-                <element signature="e#1139#1140#0" expanded="true" />
-                <element signature="e#1233#1234#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="e#1442#1443#0" expanded="true" />
-                <element signature="e#3980#3981#0" expanded="true" />
-                <element signature="e#4027#4028#0" expanded="true" />
-                <element signature="e#4421#4422#0" expanded="true" />
-                <element signature="e#4469#4470#0" expanded="true" />
-                <element signature="e#5083#5084#0" expanded="true" />
-                <element signature="e#5120#5121#0" expanded="true" />
-                <element signature="e#5436#5437#0" expanded="true" />
-                <element signature="e#5474#5475#0" expanded="true" />
-                <element signature="e#5795#5796#0" expanded="true" />
-                <element signature="e#5834#5835#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#626#627#0" expanded="true" />
+                <element signature="method#insert#1;class#AVL_tree#0" />
+                <element signature="method#delete#1;class#AVL_tree#0" />
+                <element signature="e#7556#7557#0" expanded="true" />
+                <element signature="e#7587#7588#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -93,6 +123,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -108,12 +141,12 @@
     <option name="width" value="2076" />
     <option name="height" value="1161" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -121,16 +154,24 @@
               <item name="DsLab4" type="b2602c69:ProjectViewProjectNode" />
               <item name="DsLab4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DsLab4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DsLab4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553446034717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554112891225" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../OPLab3" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -175,73 +216,76 @@
     <frame x="-7" y="-7" width="1380" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32272726" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
+      <window_info anchor="right" id="Cargo" order="8" weight="0.32954547" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>97</line>
+          <properties class="Main" method="FormingFirstSection">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="52" column="19" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        <state relative-caret-position="170">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AVL_tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-700">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="322">
+          <caret line="278" column="37" lean-forward="true" selection-start-line="278" selection-start-column="37" selection-end-line="278" selection-end-column="37" />
           <folding>
-            <element signature="e#0#5501#0" expanded="true" />
-            <element signature="e#714#715#0" expanded="true" />
-            <element signature="e#749#750#0" expanded="true" />
-            <element signature="e#841#842#0" expanded="true" />
-            <element signature="e#884#885#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
-            <element signature="e#1139#1140#0" expanded="true" />
-            <element signature="e#1233#1234#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="e#1442#1443#0" expanded="true" />
-            <element signature="e#3980#3981#0" expanded="true" />
-            <element signature="e#4027#4028#0" expanded="true" />
-            <element signature="e#4421#4422#0" expanded="true" />
-            <element signature="e#4469#4470#0" expanded="true" />
-            <element signature="e#5083#5084#0" expanded="true" />
-            <element signature="e#5120#5121#0" expanded="true" />
-            <element signature="e#5436#5437#0" expanded="true" />
-            <element signature="e#5474#5475#0" expanded="true" />
-            <element signature="e#5795#5796#0" expanded="true" />
-            <element signature="e#5834#5835#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="method#insert#1;class#AVL_tree#0" />
+            <element signature="method#delete#1;class#AVL_tree#0" />
+            <element signature="e#7556#7557#0" expanded="true" />
+            <element signature="e#7587#7588#0" expanded="true" />
           </folding>
         </state>
       </provider>
