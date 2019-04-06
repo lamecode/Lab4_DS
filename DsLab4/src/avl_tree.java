@@ -73,23 +73,24 @@ public class AVL_tree {
         return height(N.left) - height(N.right);
     }
 
-    private boolean search(Node r, int key) {
-        boolean found = false;
-        while ((r != null) && !found)
-        {
-            int rval = r.key;
-            if (key < rval)
-                r = r.left;
-            else if (key > rval)
-                r = r.right;
-            else
-            {
-                found = true;
+    public int search(int key) {
+        Node value = search(root, key);
+        return value.data;
+    }
+
+    private Node search(Node root, int key) {
+        Node rval = root;
+        while (rval != null) {
+            if (key < rval.key)
+                rval = rval.left;
+            else if (key > rval.key)
+                rval = rval.right;
+            else {
                 break;
             }
-            found = search(r, key);
+             rval = search(rval, key);
         }
-        return found;
+        return rval;
     }
 
 
@@ -163,14 +164,15 @@ public class AVL_tree {
     }
 
 
-    public void delete(int key) {
+    public int delete(int key) {
         root = delete(root, key);
+        return root.data;
     }
 
     Node delete(Node root, int key) {
         // STEP 1: PERFORM STANDARD BST DELETE  
         if (root == null)
-            return root;
+            throw new NullPointerException("Tree is empty!");
 
         // If the data to be deleted is smaller than
         // the root's data, then it lies in left subtree
@@ -266,7 +268,7 @@ public class AVL_tree {
 
     public void preOrder(Node node) {
         if (node != null) {
-            System.out.print(node.data + " " + "(" + node.key + ")" + ", ");
+            System.out.print(node.data + " " + "(" + node.key + ")" + "  ");
             preOrder(node.left);
             preOrder(node.right);
         }
