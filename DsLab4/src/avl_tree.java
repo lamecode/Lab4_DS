@@ -75,6 +75,9 @@ public class AVL_tree {
 
     public int search(int key) {
         Node value = search(root, key);
+        if (value == null) {
+            return -1;
+        }
         return value.data;
     }
 
@@ -163,10 +166,33 @@ public class AVL_tree {
         return current;
     }
 
+    public boolean bool_search(int val) {
+        return bool_search(root, val);
+    }
+
+    private boolean bool_search(Node r, int val) {
+        boolean found = false;
+        while ((r != null) && !found)
+        {
+            int rval = r.key;
+            if (val < rval)
+                r = r.left;
+            else if (val > rval)
+                r = r.right;
+            else {
+                found = true;
+                break;
+            }
+            found = bool_search(r, val);
+        }
+        return found;
+    }
+
 
     public int delete(int key) {
+        int rootData = root.data;
         root = delete(root, key);
-        return root.data;
+        return rootData;
     }
 
     Node delete(Node root, int key) {
@@ -282,7 +308,19 @@ public class AVL_tree {
         if (node != null) {
             postOrder(node.left);
             postOrder(node.right);
-            System.out.print(node.data + " ");
+            System.out.print(node.data + " " + "(" + node.key + ")" + "  ");
+        }
+    }
+
+    public void InOrder() {
+        InOrder(root);
+    }
+
+    public void InOrder(Node node) {
+        if (node != null) {
+            InOrder(node.left);
+            System.out.print(node.data + " " + "(" + node.key + ")" + "  ");
+            InOrder(node.right);
         }
     }
 
